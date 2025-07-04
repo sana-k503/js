@@ -1,0 +1,94 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #fff;
+    padding: 2.2rem 2.2rem 2rem 2.2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(57, 120, 206, 0.18);
+    width: 350px;
+    max-width: 90vw;
+    text-align: center;
+}
+
+h1 {
+    color: #2a5298;
+    margin-bottom: 1.3rem;
+    font-size: 1.45rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+label {
+    font-size: 1rem;
+    color: #24416b;
+    margin-bottom: 0.4rem;
+    display: block;
+    text-align: left;
+    font-weight: 500;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    margin-bottom: 1.1rem;
+    border: 1.4px solid #b8d4f6;
+    border-radius: 8px;
+    font-size: 1.06rem;
+    background: #f7fafc;
+    outline: none;
+    transition: border 0.25s;
+    box-sizing: border-box;
+}
+
+input[type="number"]:focus {
+    border-color: #4783e1;
+    background: #e3f0fc;
+}
+
+.button-row {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.7rem 1.35rem;
+    border: none;
+    border-radius: 7px;
+    background: #4783e1;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.18s;
+}
+
+button[type="button"] {
+    background: #e6eefb;
+    color: #305081;
+}
+
+button[type="button"]:hover {
+    background: #c8daf5;
+}
+
+button[type="submit"]:hover {
+    background: #2566be;
+}
+
+.result {
+    margin-top: 1.1rem;
+    font-size: 1.13rem;
+    color: #184d99;
+    min-height: 24px;
+    font-weight: 500;
+}

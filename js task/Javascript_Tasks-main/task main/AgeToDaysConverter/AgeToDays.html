@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age to Days Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age to Days Converter</h1>
+        <form id="ageForm" autocomplete="off">
+            <label for="age">Enter your age (years):</label>
+            <input type="number" id="age" name="age" min="1" placeholder="e.g. 23" required>
+            <div class="button-row">
+                <button type="submit">Convert</button>
+                <button type="button" onclick="clearAgeFields()">Clear</button>
+            </div>
+        </form>
+        <p class="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
